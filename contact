@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Fariborz Aref Web Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact information for academic web design projects and consulting." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <div class="brand">
+        <span class="brand-mark">FA</span>
+        <div class="brand-meta">
+          <span class="brand-name">Fariborz Aref Web Studio</span>
+          <span class="brand-tagline">Academic web design and consulting</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="shell">
+        <h1>Contact</h1>
+        <p>
+          To discuss a project, send a short description of what you need and when you would like it to go live.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell contact-layout">
+        <div>
+          <h2>Contact details</h2>
+          <p>
+            For academic sites, journal platforms, and institute pages, email is usually the easiest start.
+          </p>
+          <ul class="contact-meta">
+            <li>Email: <a href="mailto:fariborz@yourdomain.com">fariborz@yourdomain.com</a></li>
+            <li>Location: Houston, Texas</li>
+          </ul>
+          <p>
+            You can also include links to your current website, CV, or any existing material that should be reflected on the new site.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <h2>Short inquiry form</h2>
+          <p>
+            This form uses a simple mailto link. If you prefer a hosted form service,
+            this can be updated later.
+          </p>
+          <form
+            onsubmit="window.location.href='mailto:fariborz@yourdomain.com?subject=' + encodeURIComponent(this.subject.value) + '&body=' + encodeURIComponent(this.message.value); return false;"
+          >
+            <label>
+              Subject
+              <input type="text" name="subject" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Describe your project, pages needed, and any deadlines." required></textarea>
+            </label>
+            <button type="submit" class="btn primary full">Send email</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark small">FA</span>
+        <span>Fariborz Aref Web Studio</span>
+      </div>
+      <div class="footer-meta">
+        Academic and research web design · Houston, Texas · © 2025
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
