@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Work | Fariborz Aref Web Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Selected web projects for academics, journals, and research institutes." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <div class="brand">
+        <span class="brand-mark">FA</span>
+        <div class="brand-meta">
+          <span class="brand-name">Fariborz Aref Web Studio</span>
+          <span class="brand-tagline">Academic web design and consulting</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html" class="active">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="shell">
+        <h1>Selected work</h1>
+        <p>
+          A sample of projects and concepts that show how academic web design can stay clear and simple.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="grid-2 work-grid">
+          <article class="work-item">
+            <p class="work-tag">Research institute</p>
+            <h2>Texas Institute for Applied Research</h2>
+            <p>
+              Single page site for a research and data consulting studio based in Houston.
+              Services, methods, and sample projects are presented in a direct and readable way.
+            </p>
+            <ul class="bullet-list">
+              <li>Static HTML and CSS</li>
+              <li>Deployed on GitHub Pages</li>
+              <li>Focus on evaluation and program design</li>
+            </ul>
+          </article>
+
+          <article class="work-item">
+            <p class="work-tag">Journal platform</p>
+            <h2>World Scholars Journal Series</h2>
+            <p>
+              Concept for a shared platform for several journals, each with its own call for papers,
+              editorial board, and issue archive under a consistent layout.
+            </p>
+            <ul class="bullet-list">
+              <li>Shard template across multiple journals</li>
+              <li>Simple access to current calls and archives</li>
+              <li>Clean author and reviewer information</li>
+            </ul>
+          </article>
+
+          <article class="work-item">
+            <p class="work-tag">Academic portfolio</p>
+            <h2>Computational Sociology Lab</h2>
+            <p>
+              Personal academic home concept for combining quantitative, qualitative, and policy work.
+              Sections for research, teaching, and public outputs in one coherent structure.
+            </p>
+            <ul class="bullet-list">
+              <li>Landing page with clear summary</li>
+              <li>Project list with short descriptions</li>
+              <li>Links to code repositories and data</li>
+            </ul>
+          </article>
+
+          <article class="work-item">
+            <p class="work-tag">Teaching project</p>
+            <h2>Methods teaching site</h2>
+            <p>
+              A compact site for a research methods course with weekly topics, readings,
+              and assignment descriptions for students.
+            </p>
+            <ul class="bullet-list">
+              <li>Week by week structure</li>
+              <li>Download sections for syllabi and slides</li>
+              <li>Optional simple FAQ for students</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="cta-row">
+          <p>
+            Detailed examples, including code samples and layouts, can be shared if you have a specific project in mind.
+          </p>
+          <a href="contact.html" class="btn primary">Discuss a project</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark small">FA</span>
+        <span>Fariborz Aref Web Studio</span>
+      </div>
+      <div class="footer-meta">
+        Academic and research web design · Houston, Texas · © 2025
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
