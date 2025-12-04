@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Fariborz Aref Web Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About the studio and its academic web design approach." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <div class="brand">
+        <span class="brand-mark">FA</span>
+        <div class="brand-meta">
+          <span class="brand-name">Fariborz Aref Web Studio</span>
+          <span class="brand-tagline">Academic web design and consulting</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="shell">
+        <h1>About the studio</h1>
+        <p>
+          Academic web design shaped by research practice and experience with institutions, grants, and teaching.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell about-layout">
+        <div>
+          <h2>Who runs this studio</h2>
+          <p>
+            The studio is led by Dr. Fariborz Aref, a sociologist and researcher with experience in
+            community development, survey research, and comparative social policy.
+          </p>
+          <p>
+            This background shapes how sites are planned: content comes first, then hierarchy,
+            then visual design. Academic audiences want clarity, not sales language.
+          </p>
+        </div>
+        <div class="info-panel">
+          <h3>What this means for clients</h3>
+          <ul class="bullet-list">
+            <li>Communication that understands academic norms</li>
+            <li>Layouts that respect how scholars and students read</li>
+            <li>Code and structure simple enough to maintain long term</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="shell grid-3">
+        <div class="feature-card">
+          <h3>Focus on content</h3>
+          <p>
+            Pages are planned around how you present your work in CVs, grant applications,
+            and research statements, then translated into the web layout.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Simple technology</h3>
+          <p>
+            No unnecessary systems. Static sites with HTML, CSS, and a small amount of JavaScript
+            are enough for most academic use cases.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Long term view</h3>
+          <p>
+            The aim is a site that will still function cleanly in five years,
+            not a short trend that breaks as soon as a library changes.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark small">FA</span>
+        <span>Fariborz Aref Web Studio</span>
+      </div>
+      <div class="footer-meta">
+        Academic and research web design · Houston, Texas · © 2025
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
